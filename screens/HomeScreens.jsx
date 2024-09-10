@@ -21,7 +21,7 @@ const HomeScreen = ({ navigation }) => {
     }
   };
 
-  // Utilisation de useFocusEffect pour recharger les données lorsque l'écran est focalisé
+  //  useFocusEffect pour recharger les données lorsque l'écran est focalisé
   useFocusEffect(
     useCallback(() => {
       fetchNotes(); // Récupérer les notes à chaque fois que l'écran est focus
